@@ -10,5 +10,5 @@ def reverse_each_word(string)
        reverse = string[index] + reverse
        index += 1
     end
-    return reverse
+    return new_array
 end

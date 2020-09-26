@@ -6,7 +6,7 @@ def reverse_each_word(sentence2)
     new_array = []
     new_array = sentence2.split(" ")
     while index < new_array.length
-       reverse = new_array[index].reverse
+       reverse = new_array[index].reverse.each
        index += 1
     end
     return reverse

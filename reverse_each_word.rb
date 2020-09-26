@@ -1,6 +1,6 @@
 require "pry"
 
-def reverse_each_word(string)
+def reverse_each_word(sentence2)
     reverse = ""
     index = 0
     new_array = []

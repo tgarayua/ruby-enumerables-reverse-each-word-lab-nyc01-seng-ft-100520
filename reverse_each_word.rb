@@ -5,7 +5,6 @@ def reverse_each_word(string)
     index = 0
     new_array = []
     new_array = string.split(" ")
-    binding.pry
     while index < new_array.length
        reverse = new_array[index] + reverse
        index += 1
